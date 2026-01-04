@@ -1,0 +1,7 @@
+aiohttp
+aiosqlite
+feedparser
+PyYAML
+beautifulsoup4
+python-dotenv
+APScheduler

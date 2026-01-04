@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  your_name_bot:
+    build: .
+    container_name: your_name_bot
+    restart: unless-stopped
+    env_file:
+      - ./bot_config.env
+    volumes:
+      - ./data:/app/data
+      - ./sources.yaml:/app/sources.yaml:ro
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"

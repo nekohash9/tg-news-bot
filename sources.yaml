@@ -1,0 +1,22 @@
+# sources.yaml - list of RSS feeds with categories
+sources:
+  - url: "https://news.ycombinator.com/rss"
+    category: "IT"
+  - url: "https://lobste.rs/rss"
+    category: "IT"
+  - url: "https://spectrum.ieee.org/rss"
+    category: "IT"
+
+  - url: "https://daily.bandcamp.com/feed"
+    category: "AMBIENT"
+  - url: "https://www.astrangelyisolatedplace.com/blog/feed/"
+    category: "AMBIENT"
+  - url: "https://headphonecommute.com/feed/"
+    category: "AMBIENT"
+
+  - url: "https://www.rockpapershotgun.com/feed"
+    category: "GAMES"
+  - url: "https://www.indieretronews.com/feeds/posts/default"
+    category: "GAMES"
+  - url: "https://www.gog.com/blog/rss.xml"
+    category: "GAMES"
