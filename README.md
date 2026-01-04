@@ -1,4 +1,4 @@
-# it ambient telegram bot
+# telegram news bot
 
 this bot parses content from it-related websites and posts cleaned summaries to a single telegram channel. it is designed to run in docker and also includes rate limiting, anti-spam protection, night mode, and daily posting limits that you can change manually
 
@@ -71,7 +71,7 @@ docker compose up -d
 5.  check logs:
 
 ```{=html}
-docker logs -f it_ambient_bot
+docker logs -f your_bot
 ```
 ## notes
 
